@@ -1,4 +1,43 @@
-html {
-  height: 100%;
+.principal {
+  background-color: gray;
+  padding: 30px;
+}
+
+p.alinha {
+  text-align: justify;
+  text-align: center;
+}
+
+#titulo {
+  text-align: center;
+}
+
+img.banner {
+  display: block;
+ margin: 0 auto;
   width: 100%;
+}
+  
+.imagem-beneficios {
+    width: 50%;
+  }
+
+strong em {
+  color: red;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.beneficios {
+  background-color: #ffffff;
+  padding: 20px;
 }
