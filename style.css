@@ -1,10 +1,13 @@
+.tituloPrincipal {
+  padding-left: 20px;
+}
+
 .principal {
   background-color: gray;
   padding: 30px;
 }
 
-p.alinha {
-  text-align: justify;
+.centro {
   text-align: center;
 }
 
@@ -14,20 +17,16 @@ p.alinha {
 
 img.banner {
   display: block;
- margin: 0 auto;
+  margin: 0 auto;
   width: 100%;
 }
-  
+
 .imagem-beneficios {
-    width: 50%;
-  }
+  width: 50%;
+}
 
 strong em {
   color: red;
-}
-
-h2 {
-  text-align: center;
 }
 
 ul {
