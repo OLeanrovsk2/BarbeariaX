@@ -40,3 +40,8 @@ ul {
   background-color: #ffffff;
   padding: 20px;
 }
+
+.tituloPrincipal{
+  padding-left: 20px;
+  font-size: 40px;
+}
