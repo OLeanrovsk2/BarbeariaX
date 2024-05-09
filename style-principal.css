@@ -87,8 +87,28 @@ footer {
 }
 
 .cop {
-  color: #FFFFFF;
+ color: #FFFFFF;
  font-size 13px;
-  margin-top: 20px;
-  
+ margin-top: 20px;
+}
+main {
+  width: 940
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form input {
+  display: block;
+  margin-bottom: 20px;
+  width: 50%;
+  padding: 10px 25px;
 }
