@@ -32,7 +32,7 @@
 
 <div>
       <label for="email">Email</label>
-      <input class="input-padrao" type="text" id="email">
+      <input class="input-padrao" type="email" id="email">
 
       <label for="telefone">Telefone</label>
       <input class="input-padrao" type="text" id="telefone">
@@ -40,15 +40,23 @@
       <label for="mensagem">Mensagem</label>
       <textarea class="input-padrao" cols="10" rows="10" id="mensagem"></textarea>
 
-      <label for="radio-email">Email</label>
-<input type="radio" name="contato" value="email" id="radio-email">
+      <label for="radio-email"><input type="text.k  " name="contato" value="email" id="radio-email">Email</label>
 
-<label for="radio-telefone">Telefone</label>
-<input type="radio" name="contato" value="telefone" id="radio-telefone">
-      <label for="radio-whatsapp"></label>
-      <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+
+<label for="radio-telefone"><input type="tel" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+      <label for="radio-whatsapp"><input type="text" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+      
 </div>
-     <label><input type="checkbox">Gostaria de receber mossas ofertas por email?</label>
+
+      <p>Em qual horário você prefere ser atendido?</p>
+<select>
+  <option> Manhã </option>
+  <option> Tarde </option>
+  <option> Noite </option>
+</select>
+      
+     <label><input class="checkbox" type="checkbox">Gostaria de receber mossas ofertas por email?</label>
       <input type="submit" value="Enviar">
     </form>
   </main>
