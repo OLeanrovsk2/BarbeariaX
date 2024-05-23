@@ -31,16 +31,20 @@
 
 
 <div>
+  
+  <fieldset>
+<legend>Como prefere o nosso contato?</legend>
       <label for="email">Email</label>
-      <input class="input-padrao" type="email" id="email">
+      <input class="input-padrao" type="email" id="email" required placeholder="XXXXX@gmail.com">
 
       <label for="telefone">Telefone</label>
-      <input class="input-padrao" type="text" id="telefone">
+      <input class="input-padrao" type="text" id="telefone" required placeholder="(99)9999-9999">
 
       <label for="mensagem">Mensagem</label>
-      <textarea class="input-padrao" cols="10" rows="10" id="mensagem"></textarea>
+      <textarea class="input-padrao" cols="10" rows="10" id="mensagem" required placeholder="Como podemos lhe ajudar?"></textarea>
+    <legend>Como prefere nosso contato?</legend>
 
-      <label for="radio-email"><input type="text.k  " name="contato" value="email" id="radio-email">Email</label>
+      <label for="radio-email"><input type="text" name="contato" value="email" id="radio-email">Email</label>
 
 
 <label for="radio-telefone"><input type="tel" name="contato" value="telefone" id="radio-telefone">Telefone</label>
@@ -48,16 +52,19 @@
       <label for="radio-whatsapp"><input type="text" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
       
 </div>
-
-      <p>Em qual horário você prefere ser atendido?</p>
+    </fieldset>
+      
+<fieldset>
+      <legend>Em qual horário você prefere ser atendido?</legend>
 <select>
   <option> Manhã </option>
   <option> Tarde </option>
   <option> Noite </option>
 </select>
+    </fielset>
       
-     <label><input class="checkbox" type="checkbox">Gostaria de receber mossas ofertas por email?</label>
-      <input type="submit" value="Enviar">
+     <label><input class="checkbox" type="checkbox" checked>Gostaria de receber nossas ofertas por email?</label>
+      <input class="enviar" type="submit" value="Enviar">
     </form>
   </main>
 
