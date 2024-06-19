@@ -211,3 +211,23 @@ width: 940px;
     width: 50%;
   }
 
+.tituloPrincipal:first-letter {
+  color: red;
+}
+
+  p:first-line{
+    font-style: italic;
+  }
+
+  .tituloPrincipal:before{
+    content: "[";
+  }
+  
+  .tituloPrincipal:after{
+    content: "]";
+  }
+
+.item: first-child {
+  font-weight: bold;
+}
+
